@@ -382,7 +382,7 @@ func Check(target string, TargetCNAME string) {
 								if provider.Name == "cloudfront" {
 									_, body2, _ := Get(target, 120, true)
 									if strings.Contains(body2, response) == true {
-										fmt.Printf("\n[\033[31;1;4m%s\033[0m] Takeover Possible At : %s", provider.Name, target)
+										fmt.Printf("\n[\033[31;1;4m%s\033[0m] Takeover Possible At %s", provider.Name, target)
 									}
 								} else {
 									fmt.Printf("\n[\033[31;1;4m%s\033[0m] Takeover Possible At %s with CNAME %s", provider.Name, target, TargetCNAME)
