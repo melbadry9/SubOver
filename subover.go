@@ -301,14 +301,9 @@ func InitializeProviders() {
             "fingerprint": ["Project doesnt exist... yet!"]
         },
         {
-            "name": "apigee",
-            "cname": ["-portal.apigee.net"],
-            "response": [""]
-        },
-        {
             "name": "smugmug",
             "cname": ["domains.smugmug.com"],
-            "response": [""]
+            "response": ["{\"text\":\"Page Not Found\""]
         },
         {
             "name": "airee",
@@ -318,7 +313,7 @@ func InitializeProviders() {
         {
             "name": "fly",
             "cname": ["fly.io"],
-            "response": [""]
+            "response": ["404 Not Found"]
         },
         {
             "name": "kinsta",
@@ -343,7 +338,22 @@ func InitializeProviders() {
         {
             "name": "HatenaBlog",
             "cname": [""],
-            "response": ["404 Blog is not found"]
+            "response": ["404 Blog is not found", "Sorry, we can't find the page you're looking for."]
+        },
+        {
+            "name": "wufoo",
+            "cname": ["wufoo.com"],
+            "response": ["Profile not found"]
+        },
+        {
+            "name": "hubspot",
+            "cname": ["hubspot.com"],
+            "response": ["Domain not found", "does not exist in our system"]
+        },
+        {
+            "name": "jazzhr",
+            "cname": ["applytojob.com"],
+            "response": ["This account no longer active"]
         }
     ]
     `)
