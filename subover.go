@@ -57,7 +57,7 @@ func InitializeProviders() {
         },
         {
             "name":"tumblr",
-            "cname":["tumblr.com"],
+            "cname":["tumblr.com","domains.tumblr.com"],
             "response":["There's nothing here.", "Whatever you were looking for doesn't currently exist at this address."]
         },
         {
@@ -83,7 +83,7 @@ func InitializeProviders() {
         {
             "name":"campaignmonitor",
             "cname":["createsend.com", "name.createsend.com"],
-            "response":["Double check the URL", "<strong>Trying to access your account?</strong>"]
+            "response":["Double check the URL", "<strong>Trying to access your account?</strong>", "Double check the URL or <a href=\"mailto:help@createsend.com"]
         },
         {
             "name":"cargocollective",
@@ -107,8 +107,8 @@ func InitializeProviders() {
         },
         {
             "name":"bitbucket",
-            "cname":["bitbucket.org"],	
-            "response":["The page you have requested does not exist"]
+            "cname":["bitbucket.org","bitbucket.io"],	
+            "response":["The page you have requested does not exist", "Repository not found"]
         },
         {
             "name":"smartling",
@@ -117,8 +117,8 @@ func InitializeProviders() {
         },
         {
             "name":"acquia",
-            "cname":["acquia.com"],
-            "response":["If you are an Acquia Cloud customer and expect to see your site at this address"]
+            "cname":["acquia.com", "acquia-test.co"],
+            "response":["If you are an Acquia Cloud customer and expect to see your site at this address", "The site you are looking for could not be found."]
         },
         {
             "name":"fastly",
@@ -207,7 +207,7 @@ func InitializeProviders() {
         },
         {
             "name":"webflow",
-            "cname":["proxy.webflow.io"],
+            "cname":["proxy.webflow.io", "proxy-ssl.webflow.com", "proxy.webflow.com"],
             "response":["<p class=\"description\">The page you are looking for doesn't exist or has been moved.</p>"]
         },
         {
@@ -292,8 +292,58 @@ func InitializeProviders() {
         },
         {
             "name":"azure",
-            "cname":["azurewebsites.net"],
+            "cname":[".azurewebsites.net",".cloudapp.net",".cloudapp.azure.com",".trafficmanager.net",".blob.core.windows.net",".azure-api.net",".azurehdinsight.net",".azureedge.net"],
             "response":["404 Web Site not found"]
+        },
+        {
+            "name": "readme",
+            "cname": ["readme.io"],
+            "fingerprint": ["Project doesnt exist... yet!"]
+        },
+        {
+            "name": "apigee",
+            "cname": ["-portal.apigee.net"],
+            "response": [""]
+        },
+        {
+            "name": "smugmug",
+            "cname": ["domains.smugmug.com"],
+            "response": [""]
+        },
+        {
+            "name": "airee",
+            "cname": ["cdn.airee.ru"],
+            "response": ["402."]
+        },
+        {
+            "name": "fly",
+            "cname": ["fly.io"],
+            "response": [""]
+        },
+        {
+            "name": "kinsta",
+            "cname": ["kinsta.com"],
+            "response": ["No Site For Domain"]
+        },
+        {
+            "name": "launchrock",
+            "cname": ["launchrock.com"],
+            "response": ["It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us."]
+        },
+        {
+            "name": "Strikingly",
+            "cname": ["s.strikinglydns.com"],
+            "response": ["page not found"]
+        },
+        {
+            "name": "Uptimerobot",
+            "cname": ["stats.uptimerobot.com"],
+            "response": ["page not found"]
+        },
+        {
+            "name": "HatenaBlog",
+            "cname": [""],
+            "response": ["404 Blog is not found"]
         }
     ]
     `)
