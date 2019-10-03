@@ -88,7 +88,7 @@ func InitializeProviders() {
         {
             "name":"cargocollective",
             "cname":["cargocollective.com"],
-            "response":["<div class=\"notfound\">", "404 Not Found"]
+            "response":["<div class=\"notfound\">", "404 Not Found<br>"]
         },
         {
             "name":"statuspage",
