@@ -88,7 +88,7 @@ func InitializeProviders() {
         {
             "name":"cargocollective",
             "cname":["cargocollective.com"],
-            "response":["404 Not Found"]
+            "response":["<div class=\"notfound\">", "404 Not Found"]
         },
         {
             "name":"statuspage",
@@ -308,7 +308,7 @@ func InitializeProviders() {
         {
             "name": "airee",
             "cname": ["cdn.airee.ru"],
-            "response": ["402."]
+            "response": ["Ошибка 402. Сервис Айри.рф не оплачен"]
         },
         {
             "name": "fly",
@@ -328,7 +328,7 @@ func InitializeProviders() {
         {
             "name": "Strikingly",
             "cname": ["s.strikinglydns.com"],
-            "response": ["page not found"]
+            "response": ["But if you're looking to build your own website","you've come to the right place."]
         },
         {
             "name": "Uptimerobot",
