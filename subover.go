@@ -146,11 +146,6 @@ func InitializeProviders() {
             "response":["The thing you were looking for is no longer here", "The thing you were looking for is no longer here, or never was"]
         },
         {
-            "name":"pingdom",
-            "cname":["stats.pingdom.com"],
-            "response":["pingdom"]
-        },
-        {
             "name":"tilda",
             "cname":["tilda.ws"],
             "response":["Domain has been assigned"]
