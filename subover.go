@@ -101,11 +101,6 @@ func InitializeProviders() {
             "response":["NoSuchBucket", "The specified bucket does not exist"]
         },
         {
-            "name":"cloudfront",
-            "cname":["cloudfront.net"],
-            "response":["The request could not be satisfied", "ERROR: The request could not be satisfied"]
-        },
-        {
             "name":"bitbucket",
             "cname":["bitbucket.org","bitbucket.io"],	
             "response":["The page you have requested does not exist", "Repository not found"]
