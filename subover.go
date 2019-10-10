@@ -51,11 +51,6 @@ func InitializeProviders() {
             "response":["There's nothing here, yet.", "herokucdn.com/error-pages/no-such-app.html", "<title>No such app</title>"]
         },
         {
-            "name":"unbounce",
-            "cname":["unbouncepages.com"],
-            "response":["The requested URL / was not found on this server.", "The requested URL was not found on this server"]
-        },
-        {
             "name":"tumblr",
             "cname":["tumblr.com","domains.tumblr.com"],
             "response":["There's nothing here.", "Whatever you were looking for doesn't currently exist at this address."]
@@ -69,11 +64,6 @@ func InitializeProviders() {
             "name":"instapage",
             "cname":["pageserve.co", "secure.pageserve.co", "https://instapage.com/"],
             "response":["You've Discovered A Missing Link. Our Apologies!"]
-        },
-        {
-            "name":"desk",
-            "cname":["desk.com"],
-            "response":["Please try again or try Desk.com free for 14 days.", "Sorry, We Couldn't Find That Page"]
         },
         {
             "name":"tictail",
@@ -124,11 +114,6 @@ func InitializeProviders() {
             "name":"pantheon",
             "cname":["pantheonsite.io"],
             "response":["The gods are wise", "The gods are wise, but do not know of the site which you seek."]
-        },
-        {
-            "name":"zendesk",
-            "cname":["zendesk.com"],
-            "response":["<title>Help Center Closed | Zendesk</title>", "Help Center Closed"]
         },
         {
             "name":"uservoice",
