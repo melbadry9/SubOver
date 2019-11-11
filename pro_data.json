@@ -32,7 +32,7 @@
     {
         "name":"campaignmonitor",
         "cname":["createsend.com", "name.createsend.com"],
-        "response":["<strong>Trying to access your account?</strong>", "Double check the URL or <a href=\"mailto:help@createsend.com"]
+        "response":["<strong>Trying to access your account?</strong>", "or <a href=\"mailto:help@createsend.com"]
     },
     {
         "name":"cargocollective",
