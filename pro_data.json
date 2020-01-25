@@ -1,5 +1,30 @@
 [
     {
+        "name":"landingi",
+        "cname":[],
+        "response":["It looks like you're lost", "The page you are looking for is not found"]
+    },
+    {
+        "name":"helprace",
+        "cname":["helprace.com"],
+        "response":["Alias not configured!", "Admin of this Helprace account needs to set up domain alias", "(see Step 2 here: Using your own domain with Helprace)."]
+    },
+    {
+        "name":"canny",
+        "cname":["cname.canny.io"],
+        "response":["Company Not Found","There is no such company. Did you enter the right URL?"]
+    },
+    {
+        "name":"ngrok",
+        "cname":["ngrok.io"],
+        "response":["ngrok.io not found"]
+    },
+    {
+        "name":"anima",
+        "cname":[],
+        "response":["Missing Website", "If this is your website and you've just created it, try refreshing in a minute"]
+    },
+    {
         "name":"github", 
         "cname":["github.io", "github.map.fastly.net"], 
         "response":["There isn't a GitHub Pages site here.", "For root URLs (like http://example.com/) you must provide an index.html file"]
