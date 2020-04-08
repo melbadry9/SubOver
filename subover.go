@@ -349,6 +349,11 @@ func InitializeProviders() {
             "name": "jazzhr",
             "cname": ["applytojob.com"],
             "response": ["This account no longer active"]
+        },
+        {
+            "name": "smartjob",
+            "cname": ["smartjobboard.com"],
+            "response": ["Job Board Is Unavailable", "This job board website is either expired"]
         }
     ]    
     `)
