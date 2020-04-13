@@ -334,6 +334,11 @@ func InitializeProviders() {
             "name": "smartjob",
             "cname": ["smartjobboard.com"],
             "response": ["Job Board Is Unavailable", "This job board website is either expired", "This job board website is either expired or its domain name is invalid."]
+        },
+        {
+            "name": "worksites",
+            "cname": [],
+            "response": ["Hello! Sorry, but the website you’re looking for doesn’t exist."]
         }
     ]`)
 
