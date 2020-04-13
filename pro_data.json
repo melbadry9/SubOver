@@ -17,7 +17,7 @@
     {
         "name":"ngrok",
         "cname":["ngrok.io"],
-        "response":["ngrok.io not found"]
+        "response":["ngrok.io not found", "Tunnel *.ngrok.io not found"]
     },
     {
         "name":"anima",
@@ -33,16 +33,6 @@
         "name":"heroku", 
         "cname":["herokudns.com", "herokussl.com", "herokuapp.com"], 
         "response":["There's nothing here, yet.", "herokucdn.com/error-pages/no-such-app.html", "<title>No such app</title>"]
-    },
-    {
-        "name":"tumblr",
-        "cname":["tumblr.com","domains.tumblr.com"],
-        "response":["There's nothing here.", "Whatever you were looking for doesn't currently exist at this address."]
-    },
-    {
-        "name":"shopify",
-        "cname":["myshopify.com"],
-        "response":["Sorry, this shop is currently unavailable.", "Only one step left!"]
     },
     {
         "name":"instapage",
@@ -88,11 +78,6 @@
         "name":"acquia",
         "cname":["acquia.com", "acquia-test.co"],
         "response":["If you are an Acquia Cloud customer and expect to see your site at this address", "The site you are looking for could not be found."]
-    },
-    {
-        "name":"fastly",
-        "cname":["fastly.net"],
-        "response":["Please check that this domain has been added to a service", "Fastly error: unknown domain"]
     },
     {
         "name":"pantheon",
@@ -168,11 +153,6 @@
         "name":"webflow",
         "cname":["proxy.webflow.io", "proxy-ssl.webflow.com", "proxy.webflow.com"],
         "response":["<p class=\"description\">The page you are looking for doesn't exist or has been moved.</p>"]
-    },
-    {
-        "name":"kajabi",
-        "cname":["endpoint.mykajabi.com"],
-        "response":["<h1>The page you were looking for doesn't exist.</h1>"]
     },
     {
         "name":"thinkific",
@@ -312,6 +292,6 @@
     {
         "name": "smartjob",
         "cname": ["smartjobboard.com"],
-        "response": ["Job Board Is Unavailable", "This job board website is either expired"]
+        "response": ["Job Board Is Unavailable", "This job board website is either expired", "This job board website is either expired or its domain name is invalid."]
     }
 ]
